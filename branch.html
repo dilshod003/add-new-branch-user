@@ -3,10 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>new Branch</title>
+    <title>Register Branch</title>
   </head>
   <body>
-    <h1>Hello new Branch</h1>
-    <p>Second branch</p>
+    <h1>Register Branch</h1>
+    <form action="/register-branch" method="post">
+      <label for="branch-name">Branch Name:</label>
+      <input type="text" id="branch-name" name="branch-name" placeholder="Name" />
+      <button type="submit">Register</button>
+    </form>
+    <p>
+      <a href="/">Go back to the main page</a>
+    </p>
+    <p>
+      <a href="/branches">View all branches</a>
+    </p>
   </body>
 </html>
